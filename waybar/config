@@ -1,0 +1,43 @@
+{
+"include": "~/.config/waybar/modules",
+"layer": "top",
+"output": "DP-1",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 3,
+"fixed-center": true,
+"ipc": true,
+"margin-top": 10,
+"margin-bottom": 0,
+"margin-left": 10,
+"margin-right": 10,
+
+"modules-left": [
+	"temperature",
+    "cpu",
+    "memory",
+    "disk",
+	"network#speed",
+	"custom/weather"
+	],
+
+"modules-center": [
+	"custom/separator#blank",
+	"custom/cava_mviz",
+	"mpris",
+	"pulseaudio",
+    "pulseaudio#microphone",
+	"custom/taskbar"
+	], 
+
+"modules-right": [
+	"clock",
+    "tray",
+	"network",
+    "bluetooth",
+	"custom/menu",
+	"custom/lock",
+	"custom/power",
+	],
+}
