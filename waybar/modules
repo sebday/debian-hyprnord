@@ -320,12 +320,12 @@
 "clock": {
 	"interval": 1,
     //"format": " {:%I:%M %p}", // AM PM format
-    "format": "  {:%H:%M:%S}", // 24H
-	"format-alt": " {:%H:%M   %Y, %d %B, %A}",
+    "format-alt": "  {:%H:%M:%S}", // 24H
+	"format": " {:%H:%M    %A %d %B %Y }",
 	"tooltip-format": "<tt><small>{calendar}</small></tt>",
 	"calendar": {
-		"mode": "year",
-		"mode-mon-col": 3,
+		"mode": "month",
+		"mode-mon-col": 1,
 		"weeks-pos": "left",
 		"on-scroll": 1,
 		"format": {
@@ -465,8 +465,8 @@
 		"playing": "",
 		"stopped": "",
 	},
-	// "ignored-players": ["firefox"]
-	"max-length": 30,
+	//"ignored-players": ["firefox"]
+	//"max-length": 30,
 },
 "network": {
 	"format": "{ifname}",
