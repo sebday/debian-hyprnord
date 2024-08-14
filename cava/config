@@ -60,8 +60,8 @@ bar_width = 1
 method = pulse
 source = auto
 
-; method = alsa
-; source = hw:Loopback,1
+;method = alsa
+;source = hw:Loopback,1
 
 ; method = fifo
 ; source = /tmp/mpd.fifo
@@ -141,14 +141,14 @@ source = auto
 [color]
 gradient = 1
 
-gradient_color_1 = '#8fbcbb'
-gradient_color_2 = '#8fbcbb'
-gradient_color_3 = '#88c0d0'
-gradient_color_4 = '#88c0d0'
-gradient_color_5 = '#81a1c1'
-gradient_color_6 = '#81a1c1'
-gradient_color_7 = '#5e81ac'
-gradient_color_8 = '#5e81ac'
+gradient_color_1 = '#b48ead'
+gradient_color_2 = '#b48ead'
+gradient_color_3 = '#a3be8c'
+gradient_color_4 = '#a3be8c'
+gradient_color_5 = '#a3be8c'
+gradient_color_6 = '#ebcb8b'
+gradient_color_7 = '#d08770'
+gradient_color_8 = '#bf616a'
 
 [color]
 
