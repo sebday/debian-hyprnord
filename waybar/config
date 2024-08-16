@@ -33,11 +33,11 @@
 
 "modules-right": [
 	"clock",
+	"keyboard-state",
     "tray",
 	"network",
     "bluetooth",
 	"custom/menu",
 	"custom/lock",
-	"custom/power",
 	],
 }
