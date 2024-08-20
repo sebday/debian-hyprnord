@@ -395,7 +395,7 @@
 	"on-click": "hyprctl switchxkblayout $SET_KB next"
 },
 "hyprland/submap": {
-	"format": "<span style=\"italic\">  {}</span>", // Icon: expand-arrows-alt
+	"format": "<span style=\"italic\">  {}</span>", 
 	"tooltip": false,
 },
 "hyprland/window": {

@@ -33,7 +33,6 @@
 
 "modules-right": [
 	"clock",
-	"keyboard-state",
     "tray",
 	"network",
     "bluetooth",
