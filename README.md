@@ -30,6 +30,13 @@ Install a base system with no desktop environment, add `contrib` and `non-free` 
 ### Desktop apps
 `sudo apt install firefox thunar thunar-archive-plugin thunar-media-tags-plugin gvfs-backends inkscape transmission libfuse2`
 
+### Firefox
+Nord theme: https://github.com/dragonejt/nord-firefox
+
+Copy userContent.css to the ~/.mozilla/firefox/profile/chrome directory \
+Install the Stylus extension and WhatsApp Web Nord Theme
+Copy stylus_soundcloud_nord.css into Stylus as a new theme
+
 ## Themes
 Colors: Nord
 Icons: Zafiro Nord Black Blue

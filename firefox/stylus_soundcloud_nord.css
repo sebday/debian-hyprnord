@@ -72,10 +72,6 @@ body,
     border: none !important;
 }
 
-/* header bar */
-/*.header__logoLink-iconOnly {
-        display: none !important;
-    }*/
 .show .header__logo {
     background: linear-gradient(#81a1c1, #5e81ac) !important;
 }
@@ -197,6 +193,10 @@ body,
 .queueItemView__playButton {
     top: 4px;
     left: 1px;
+}
+
+.queueItemView.m-active, .queueItemView:hover {
+    background: #434c5e!important;
 }
 
 /* comments */
