@@ -20,3 +20,18 @@ Install a base system with no desktop environment, add `contrib` and `non-free` 
 - Nwg-look is a gtk themer
 - Swaylock is the lock screen, can't be bother to build hyprlock yet
 - Swayidle for auto locking the screen
+
+### Standard tools
+`sudo apt install zsh eza git foot foot-themes neovim fzf sshfs htop nvtop duf neofetch pipewire alsa-utils playerctl pamixer pavucontrol`
+
+### Terminal apps
+`sudo apt install nnn imv mpv mpv-mpris qalc cava`
+
+### Desktop apps
+`sudo apt install firefox thunar thunar-archive-plugin thunar-media-tags-plugin gvfs-backends inkscape transmission libfuse2`
+
+## Themes
+Colors: Nord
+Icons: Zafiro Nord Black Blue
+Font: CaskaydiaCove Nerd
+Cursor: Bibata Modern Ice
