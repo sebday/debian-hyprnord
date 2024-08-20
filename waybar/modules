@@ -419,7 +419,7 @@
 	}
 },
 "keyboard-state": {
-	//"numlock": true,
+	"numlock": true,
 	"capslock": true,
 	"format": {
 		"numlock": "N {icon}",

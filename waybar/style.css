@@ -41,10 +41,11 @@
 window#waybar {
   	transition-property: background-color;
   	transition-duration: 0.5s;
-  	background: transparent;
-  	border-radius: 10px;
-	border-width: 2px;
+  	background: #2e3440;
+	padding: 2px;
+  	border-bottom: 2px solid #2dcbe8;
 	opacity: 0.8;
+	border-radius: 10px;
 }
 
 window#waybar.hidden {
@@ -53,7 +54,7 @@ window#waybar.hidden {
 
 window#waybar.empty,
 window#waybar.empty #window {
-    background-color: transparent;
+    background-color: #2e3440;
     padding: 0px;
     border: 0px;
 }
@@ -64,7 +65,7 @@ window#waybar.empty #window {
     box-shadow: none;
 	text-shadow: none;
     padding: 0px;
-    border-radius: 9px;
+    border-radius: 0;
     padding-left: 4px;
     padding-right: 4px;
     animation: gradient_f 20s ease-in infinite;
@@ -73,9 +74,8 @@ window#waybar.empty #window {
 
 #taskbar button:hover,
 #workspaces button:hover {
-	border-radius: 10px;
+	border-radius: 0;
 	color: @peach;
-	background-color: @surface0;
  	padding-left: 2px;
     padding-right: 2px;
     animation: gradient_f 20s ease-in infinite;
@@ -84,7 +84,7 @@ window#waybar.empty #window {
 
 #workspaces button.persistent {
 	color: @surface1;
-	border-radius: 10px;
+	border-radius: 0;
 }
 
 #taskbar button.active,
@@ -103,19 +103,16 @@ window#waybar.empty #window {
 }
 
 /* This section can be use if you want to separate waybar modules */
-.modules-left, .modules-center, .modules-right {
-	background: @theme_base_color; 
- 	border: 0.5px solid @overlay0;
+.modules-left, .modules-center, .modules-right {	
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-right: 4px;
 	padding-left: 4px;
-	border-radius: 10px;
+	border-radius: 0;
 
 } 
 
 .modules-left, .modules-right {
-  	border: 1px solid @blue;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	padding-right: 4px;
