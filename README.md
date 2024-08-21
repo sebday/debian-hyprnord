@@ -2,7 +2,7 @@
 ## JaKooLit script
 Inspired by https://github.com/JaKooLit/Debian-Hyprland I wanted Hyprland on Debian using just apt and without having to build anything.
 
-[![screenshot](https://imghost.lol/2024-08-16-154910_hyprshot.png)](https://imghost.lol/2024-08-16-154910_hyprshot.png)
+[![screenshot](https://imghost.lol/2024-08-21-011113_hyprshot.png)](https://imghost.lol/2024-08-21-011113_hyprshot.png)
 
 ## Install
 Install a base system with no desktop environment, add `contrib` and `non-free` and dist-update to sid.
@@ -34,11 +34,11 @@ Install a base system with no desktop environment, add `contrib` and `non-free` 
 Nord theme: https://github.com/dragonejt/nord-firefox
 
 Copy userContent.css to the ~/.mozilla/firefox/profile/chrome directory \
-Install the Stylus extension and WhatsApp Web Nord Theme
+Install the Stylus extension and WhatsApp Web Nord Theme \
 Copy stylus_soundcloud_nord.css into Stylus as a new theme
 
 ## Themes
-Colors: Nord
-Icons: Zafiro Nord Black Blue
-Font: CaskaydiaCove Nerd
+Colors: Nord \
+Icons: Zafiro Nord Black Blue \
+Font: CaskaydiaCove Nerd \
 Cursor: Bibata Modern Ice
