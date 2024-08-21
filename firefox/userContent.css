@@ -55,7 +55,7 @@
       --toolbarbutton-background: #2e3440 !important;
       --toolbarbutton-hover-background: #2e3440 !important;
       --toolbarbutton-focus-background: #3b4252 !important;
-      --toolbarbutton-focus-color: var(--grey-30) !important;
+      --toolbarbutton-focus-color: #3b4252 !important;
       --toolbarbutton-checked-background: #5e81ac !important;
       --toolbarbutton-checked-focus-background: var(--blue-60) !important;
       --toolbarbutton-checked-color: #eceff4 !important;
@@ -135,9 +135,9 @@
       --theme-toolbarbutton-active-color: #3b4252 !important;
 
       /* Used for select elements */
-      --theme-select-background: #2e3440 !important;
+      --theme-select-background: #8fbcbb !important;
       --theme-select-color: #fff !important;
-      --theme-select-hover-border-color: #3b4252 !important;
+      --theme-select-hover-border-color: #8fbcbb !important;
 
       /* Warning colors */
       --theme-warning-background: hsl(42, 37%, 19%) !important;

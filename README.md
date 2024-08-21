@@ -2,7 +2,7 @@
 ## JaKooLit script
 Inspired by https://github.com/JaKooLit/Debian-Hyprland I wanted Hyprland on Debian using just apt and without having to build anything.
 
-[![screenshot](https://imghost.lol/2024-08-21-011113_hyprshot.png)](https://imghost.lol/2024-08-21-011113_hyprshot.png)
+[![screenshot](https://imghost.lol/screenshots/2024-08-21-011113_hyprshot.png)](https://imghost.lol/screenshots/2024-08-21-011113_hyprshot.png)
 
 ## Install
 Install a base system with no desktop environment, add `contrib` and `non-free` and dist-update to sid.
