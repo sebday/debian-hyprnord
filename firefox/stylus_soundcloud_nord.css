@@ -250,39 +250,61 @@ body,
 
 /* new icons */
 .skipControl__previous {
-    background-image: url(https://imghost.lol/sc-icons-white/media-skip-backward.svg) !important;
+    background-image: url(https://imghost.lol/icons/sc-icons-white/media-skip-backward.svg) !important;
 }
 
 .playControl {
-    background-image: url(https://imghost.lol/sc-icons-white/media-playback-start.svg) !important;
+    background-image: url(https://imghost.lol/icons/sc-icons-white/media-playback-start.svg) !important;
 }
 
 .playControl.playing {
-    background-image: url(https://imghost.lol/sc-icons-white/media-playback-pause.svg) !important;
+    background-image: url(https://imghost.lol/icons/sc-icons-white/media-playback-pause.svg) !important;
 }
 
 .skipControl__next {
-    background-image: url(https://imghost.lol/sc-icons-white/media-skip-forward.svg) !important;
+    background-image: url(https://imghost.lol/icons/sc-icons-white/media-skip-forward.svg) !important;
 }
 
 .shuffleControl::before {
-    background-image: url(https://imghost.lol/sc-icons-white/media-playlist-shuffle.svg) !important;
+    background-image: url(https://imghost.lol/icons/sc-icons-white/media-playlist-shuffle.svg) !important;
 }
 
 .repeatControl.m-none {
-    background-image: url(https://imghost.lol/sc-icons-white/media-playlist-repeat.svg) !important;
+    background-image: url(https://imghost.lol/icons/sc-icons-white/media-playlist-repeat.svg) !important;
 }
 
 .volume__button {
-    background-image: url(https://imghost.lol/sc-icons-white/audio-volume-high.svg) !important;
+    background-image: url(https://imghost.lol/icons/sc-icons-white/audio-volume-high.svg) !important;
 }
 
-.sc-button-small.sc-button-like::before {
-    background-image: url(https://imghost.lol/sc-icons-white/like-blue.svg) !important;
+.sc-button-small.sc-button-like::before,
+{
+    background-image: url(https://imghost.lol/icons/sc-icons-white/like-blue.svg) !important;
 }
 
-.sc-button-small.sc-button-selected.sc-button-like::before {
-    background-image: url(https://imghost.lol/sc-icons-white/like-red.svg) !important;
+.sc-button-small.sc-button-selected.sc-button-like::before,
+.sc-button-selected.sc-button-medium.sc-button-like::before {
+    background-image: url(https://imghost.lol/icons/sc-icons-white/like-red.svg) !important;
+}
+.sc-button-medium.sc-button-repost::before {
+    background-image: url(https://imghost.lol/icons/sc-icons-white/media-repost.svg) !important;
+}
+.sc-button-medium.sc-button-share::before {
+    background-image: url(https://imghost.lol/icons/sc-icons-white/applications-multimedia.svg) !important;
+}
+.sc-button-medium.sc-button-copylink::before {
+    background-image: url(https://imghost.lol/icons/sc-icons-white/media-copy-link.svg) !important;
+}
+.sc-button-queue::before {
+    background-image: url(https://imghost.lol/icons/sc-icons-white/media-playlist-add.svg) !important;
+}
+.sc-button-medium.sc-button-more::before {
+    background-image: url(https://imghost.lol/icons/sc-icons-white/menu-dots.svg) !important;
+    background-size: 18px 18px;
+}
+    /* artist page */
+.sc-button-startstation {
+    display: none;
 }
 
 /* old shit */
