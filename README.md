@@ -11,34 +11,60 @@ Install a base system with no desktop environment, add `contrib` and `non-free` 
 
 `sudo apt install waybar fuzzel grim slurp cliphist hyprpaper nwg-look swaylock swayidle`
 
-- Fuzzel is a nice menu with icons.
+- Fuzzel is a nice menu with icons
 - Waybar is the taskbar
 - Cliphist stores the clipboard to push into fuzzel
 - Grim and slurp are for taking screenshots
-- Hyprshot is not a package and needs cloning
+- Hyprshot is not a package and needs cloning https://github.com/Gustash/Hyprshot
 - Hyprpaper is enough but simple - I want waypaper as well
 - Nwg-look is a gtk themer
-- Swaylock is the lock screen, can't be bother to build hyprlock yet
+- Swaylock is the lock screen
 - Swayidle for auto locking the screen
 
 ### Standard tools
-`sudo apt install zsh eza git foot foot-themes neovim fzf sshfs htop nvtop duf neofetch pipewire alsa-utils playerctl pamixer pavucontrol`
-
-### Terminal apps
-`sudo apt install nnn imv mpv mpv-mpris qalc cava`
+`sudo apt install waybar fuzzel grim slurp cliphist hyprpaper nwg-look libglib2.0-bin swaylock swayidle fonts-cascadia-code fonts-font-awesome fonts-hack bibata-cursor-theme`
 
 ### Desktop apps
 `sudo apt install firefox thunar thunar-archive-plugin thunar-media-tags-plugin gvfs-backends inkscape transmission libfuse2`
 
-### Firefox
-Nord theme: https://github.com/dragonejt/nord-firefox
+### Oh my zsh
+```
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" 
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
+```
 
-Copy userContent.css to the ~/.mozilla/firefox/profile/chrome directory \
-Install the Stylus extension and WhatsApp Web Nord Theme \
-Copy stylus_soundcloud_nord.css into Stylus as a new theme
+### Firefox
+Nord theme: https://github.com/dragonejt/nord-firefox \
+Copy userChrome.css to the ~/.mozilla/firefox/profile/chrome directory \
+Install the Stylus extension \
+Install the WhatsApp Web and Soundcloud Themes 
+
+#### .zshrc
+
+```
+export ZSH="$HOME/.oh-my-zsh"
+
+ZSH_THEME="agnoster"
+#ZSH_THEME="xiong-chiamiov-plus"
+#ZSH_THEME="aussiegeek"
+
+plugins=( 
+    git
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
+
+source $ZSH/oh-my-zsh.sh
+
+# Set-up icons for files/folders in terminal using eza
+alias ls='eza -l --icons'
+alias ll='eza -al --icons'
+alias lt='eza -alr --sort=mod --tree --level=1 --icons'
+```
 
 ## Themes
 Colors: Nord \
-Icons: Zafiro Nord Black Blue \
+Icons: NovaOS \
 Font: CaskaydiaCove Nerd \
 Cursor: Bibata Modern Ice
