@@ -22,7 +22,7 @@ Install a base system with no desktop environment, add `contrib` and `non-free` 
 - Swayidle for auto locking the screen
 
 ### Standard tools
-`sudo apt install waybar fuzzel grim slurp cliphist hyprpaper nwg-look libglib2.0-bin swaylock swayidle fonts-cascadia-code fonts-font-awesome fonts-firacode fonts-noto fonts-noto-cjk fonts-noto-color-emoji bibata-cursor-theme`
+`sudo apt install waybar fuzzel grim slurp cliphist hyprpaper nwg-look libglib2.0-bin swaylock swayidle bibata-cursor-theme`
 
 ### Desktop apps
 `sudo apt install firefox thunar thunar-archive-plugin thunar-media-tags-plugin gvfs-backends inkscape transmission libfuse2`
@@ -45,8 +45,8 @@ Install the WhatsApp Web and Soundcloud Themes
 
 ## Resources
 Colors: [Nord](https://www.nordtheme.com/) \
-Icons: Extract [NovaOS](https://github.com/NicklasVraa/NovaOS-nord-Icons) icons to /usr/share/icons/ \
-Font: Extract [JetBrains Mono](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz) for waybar to ~/.local/share/fonts/JetBrainsMonoNerd \ \
+Icons: Extract [NovaOS](https://github.com/NicklasVraa/NovaOS-nord-Icons) icons to ~/.local/share/icons/ \
+Font: Extract [CascadiaMono](https://www.nerdfonts.com/font-downloads)  to ~/.local/share/fonts/ \
 Cursor: [Bibata Modern Ice](https://packages.debian.org/sid/bibata-cursor-theme)
 
 
