@@ -22,7 +22,7 @@ Install a base system with no desktop environment, add `contrib` and `non-free` 
 - Swayidle for auto locking the screen
 
 ### Standard tools
-`sudo apt install waybar fuzzel grim slurp cliphist hyprpaper nwg-look libglib2.0-bin swaylock swayidle fonts-cascadia-code fonts-font-awesome fonts-hack bibata-cursor-theme`
+`sudo apt install waybar fuzzel grim slurp cliphist hyprpaper nwg-look libglib2.0-bin swaylock swayidle fonts-cascadia-code fonts-font-awesome fonts-firacode fonts-noto fonts-noto-cjk fonts-noto-color-emoji bibata-cursor-theme`
 
 ### Desktop apps
 `sudo apt install firefox thunar thunar-archive-plugin thunar-media-tags-plugin gvfs-backends inkscape transmission libfuse2`
@@ -34,28 +34,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
 ```
 
-#### .zshrc
-
-```
-export ZSH="$HOME/.oh-my-zsh"
-
-ZSH_THEME="agnoster"
-#ZSH_THEME="xiong-chiamiov-plus"
-#ZSH_THEME="aussiegeek"
-
-plugins=( 
-    git
-    zsh-autosuggestions
-    zsh-syntax-highlighting
-)
-
-source $ZSH/oh-my-zsh.sh
-
-# Set-up icons for files/folders in terminal using eza
-alias ls='eza -l --icons'
-alias ll='eza -al --icons'
-alias lt='eza -alr --sort=mod --tree --level=1 --icons'
-```
+Move `.zshrc` into ~/
 
 ### Firefox
 Nord theme: https://github.com/dragonejt/nord-firefox \
@@ -64,8 +43,11 @@ In `about:config` set "toolkit.legacyUserProfileCustomizations.stylesheets" to `
 Install the Stylus extension \
 Install the WhatsApp Web and Soundcloud Themes 
 
-## Themes
-Colors: Nord \
-Icons: NovaOS \
-Font: CaskaydiaCove Nerd \
-Cursor: Bibata Modern Ice
+## Resources
+Colors: [Nord](https://www.nordtheme.com/) \
+Icons: Extract [NovaOS](https://github.com/NicklasVraa/NovaOS-nord-Icons) icons to /usr/share/icons/ \
+Font: Extract [JetBrains Mono](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.tar.xz) for waybar to ~/.local/share/fonts/JetBrainsMonoNerd \ \
+Cursor: [Bibata Modern Ice](https://packages.debian.org/sid/bibata-cursor-theme)
+
+
+
