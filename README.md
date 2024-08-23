@@ -34,12 +34,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/plugins/
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
 ```
 
-### Firefox
-Nord theme: https://github.com/dragonejt/nord-firefox \
-Copy userChrome.css to the ~/.mozilla/firefox/profile/chrome directory \
-Install the Stylus extension \
-Install the WhatsApp Web and Soundcloud Themes 
-
 #### .zshrc
 
 ```
@@ -62,6 +56,13 @@ alias ls='eza -l --icons'
 alias ll='eza -al --icons'
 alias lt='eza -alr --sort=mod --tree --level=1 --icons'
 ```
+
+### Firefox
+Nord theme: https://github.com/dragonejt/nord-firefox \
+Copy userContent.css to the ~/.mozilla/firefox/profile/chrome directory \
+In `about:config` set "toolkit.legacyUserProfileCustomizations.stylesheets" to `true` \
+Install the Stylus extension \
+Install the WhatsApp Web and Soundcloud Themes 
 
 ## Themes
 Colors: Nord \
