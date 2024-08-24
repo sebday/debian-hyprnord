@@ -70,9 +70,9 @@
 
       /* Selection */
       --theme-selection-background: #3b4252 !important;
-      --theme-selection-background-hover: #353b48 !important;
+      --theme-selection-background-hover: #434c5e2 !important;
       --theme-selection-focus-background: #3b4252 !important;
-      --theme-selection-color: #eceff4 !important;
+      --theme-selection-color: #8fbcbb !important;
 
       /* Border color that splits the toolbars/panels/headers. */
       --theme-splitter-color: #3b4252 !important;
@@ -94,9 +94,9 @@
       --theme-text-color-strong: #eceff4 !important;
       --theme-stack-trace-text: #d08770 !important;
 
-      --theme-highlight-green: #a3be8c !important;
+      --theme-highlight-green: #8fbcbb !important;
       --theme-highlight-blue: #5e81ac !important;
-      --theme-highlight-purple: #a3be8c !important;
+      --theme-highlight-purple: #8fbcbb !important;
       --theme-highlight-red: #d08770 !important;
       --theme-highlight-yellow: #ebcb8b !important;
 
@@ -104,7 +104,7 @@
       --theme-highlight-bluegrey: #5e81ac !important;
       --theme-highlight-lightorange: #d08770 !important;
       --theme-highlight-orange: #d08770 !important;
-      --theme-highlight-pink: #a3be8c !important;
+      --theme-highlight-pink: #8fbcbb !important;
       --theme-highlight-gray: #e9f4fe !important;
 
       /* For accessibility purposes we want to enhance the focus styling. This
@@ -112,7 +112,7 @@
       --theme-focus-outline-color: #ced3d9 !important;
 
       /* Colors used in Graphs, like performance tools. Mostly similar to some "highlight-*" colors. */
-      --theme-graphs-green: #a3be8c !important;
+      --theme-graphs-green: #8fbcbb !important;
       --theme-graphs-blue: #5e81ac !important;
       --theme-graphs-bluegrey: #81a1c1 !important;
       --theme-graphs-purple: #b48ead !important;
@@ -127,7 +127,7 @@
       --theme-toolbarbutton-background: none !important;
       --theme-toolbarbutton-color: #3b4252 !important;
       --theme-toolbarbutton-hover-background: #3b4252 !important;
-      --theme-toolbarbutton-checked-background: #a3be8c !important;
+      --theme-toolbarbutton-checked-background: #8fbcbb !important;
       --theme-toolbarbutton-checked-color: #3b4252 !important;
       --theme-toolbarbutton-checked-hover-background: #3b4252 !important;
       --theme-toolbarbutton-checked-hover-color: #3b4252 !important;
@@ -136,7 +136,7 @@
 
       /* Used for select elements */
       --theme-select-background: #8fbcbb !important;
-      --theme-select-color: #fff !important;
+      --theme-select-color: #8fbcbb !important;
       --theme-select-hover-border-color: #8fbcbb !important;
 
       /* Warning colors */

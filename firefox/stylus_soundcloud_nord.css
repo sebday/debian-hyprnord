@@ -28,6 +28,14 @@ body {
     color: #d8dee9;
 }
 
+/* widths */
+.l-container.l-fullwidth {
+    width: 1220px;
+}
+.l-container {
+    width: 1140px;
+}
+
 /* hide sidebar and footer */
 .l-sidebar-right {
     display: none;
@@ -131,7 +139,8 @@ body,
 
 .fullHero__artwork,
 .editImage__select .image__lightOutline,
-.sc-artwork-40x {
+.sc-artwork-40x,
+.editImage.alwaysShowEditButton {
     width: 260px !important;
     height: 260px !important;
 }
