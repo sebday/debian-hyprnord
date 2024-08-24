@@ -43,6 +43,11 @@ In `about:config` set "toolkit.legacyUserProfileCustomizations.stylesheets" to `
 Install the Stylus extension \
 Install the WhatsApp Web and Soundcloud Themes 
 
+### Wallpapers
+Custom wallpaper scripts in the hypr folder search a wallpapers folder for jpg and png and then set each monitor. Currently sets each monitor individually so they need editing to your monitor(s), but this could extract the monitors from `hyprctl monitors`
+
+A seperate widescreen script looks in a different folder and then applies images numbered 1, 2 and 3 seperately to screens to span a wallpaper.
+
 ## Resources
 Colors: [Nord](https://www.nordtheme.com/) \
 Icons: Extract [NovaOS](https://github.com/NicklasVraa/NovaOS-nord-Icons) icons to ~/.local/share/icons/ \
