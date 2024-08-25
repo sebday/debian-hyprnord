@@ -1,3 +1,12 @@
+/* ==UserStyle==
+@name           soundcloud.com
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document url-prefix("https://soundcloud.com") {
 body,
 .sc-classic .header,
 .sc-font,
@@ -31,6 +40,14 @@ body {
 /* widths */
 .l-container.l-fullwidth {
     width: 1220px;
+}
+@media (max-width: 1239px) {
+  .l-container.l-fullwidth {
+    width: 1190px;
+  }
+     .sc-classic .l-container {
+    width: 1130px;
+  }
 }
 .l-container {
     width: 1140px;
@@ -484,4 +501,5 @@ textarea,
 .editTrackItem.m-active {
     background: #4c566a !important;
     color: #eceff4 !important;
+}
 }
