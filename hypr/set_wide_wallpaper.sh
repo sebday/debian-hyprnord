@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WALLPAPER_DIR="$HOME/Pictures/Wallpapers/wide"
+WALLPAPER_DIR="$HOME/Pictures/Widescreen"
 
 # Read the selected filename from stdin
 read -r selected_file
