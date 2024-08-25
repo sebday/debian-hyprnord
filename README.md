@@ -22,7 +22,7 @@ Install a base system with no desktop environment, add `contrib` and `non-free` 
 `sudo apt install foot git firefox `
 
 ### Clone the dots and start hyprland
-`git clone https://github.com/sebday/debian-hyprnord.git ~/.config`
+`git clone git@github.com:sebday/debian-hyprnord.git ~/.config`
 
 Reboot and run `hyprland`. Now you can use firefox to copy paste :) Fonts will be broken until installed in the next step.
 
@@ -51,7 +51,7 @@ Nord theme: https://github.com/dragonejt/nord-firefox \
 Copy firefox/userContent.css to the ~/.mozilla/firefox/profile/chrome directory \
 In `about:config` set "toolkit.legacyUserProfileCustomizations.stylesheets" to `true` \
 Install the Stylus extension \
-Install the WhatsApp Web and Soundcloud Themes 
+Install the [WhatsApp Web](https://userstyles.world/style/16345/whatsapp-web-nord-theme) and Soundcloud Themes 
 
 ### Wallpapers
 Custom wallpaper scripts in the hypr folder search a folder for jpg and png, then set each monitor. \
@@ -63,4 +63,6 @@ A seperate widescreen script looks in a different folder and then applies images
 Colors: [Nord](https://www.nordtheme.com/) \
 Icons: [NovaOS](https://github.com/NicklasVraa/NovaOS-nord-Icons) \
 Font: [CascadiaMono](https://www.nerdfonts.com/font-downloads) \
-Cursor: [Bibata Modern Ice](https://packages.debian.org/sid/bibata-cursor-theme)
+Cursor: [Bibata Modern Ice](https://packages.debian.org/sid/bibata-cursor-theme) \
+Firefox: [Nord](https://github.com/dragonejt/nord-firefox) \
+Whatsapp: [Nord](https://userstyles.world/style/16345/whatsapp-web-nord-theme)
