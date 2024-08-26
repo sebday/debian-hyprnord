@@ -55,6 +55,7 @@ Install the [WhatsApp Web](https://userstyles.world/style/16345/whatsapp-web-nor
 ### Wallpapers
 The simple binding `$wallpaper = imv-dir ~/Pictures/Wallpapers/*` and `<Return> = exec sh -c 'echo "$imv_current_file" | ~/.config/hypr/set_wallpaper.sh'; quit` in imv use the set_wallpaper.sh wallpaper script to open a folder in imv and set the wallpaper with hyprpaper. `set_wallpaper.sh` is hardcoded to my monitor names and will need editing to work. \
 A seperate binding looks in a different widescreen folder and then applies images numbered 1, 2 and 3 seperately to span a wallpaper across three monitors. \
+
 [![screenshot](https://imghost.lol/screenshots/2024-08-26-205105_hyprshot.png)](https://imghost.lol/screenshots/2024-08-26-205105_hyprshot.png)
 
 ## Resources
