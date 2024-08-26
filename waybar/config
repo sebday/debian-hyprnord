@@ -23,17 +23,17 @@
 	],
 
 "modules-center": [
-	"custom/separator#blank",
-	
 	"hyprland/taskbar",
 	"hyprland/workspaces#pacman",
 	"wlr/taskbar",
 	], 
 
 "modules-right": [
+	"custom/cava_mviz",
 	"pulseaudio",
     "pulseaudio#microphone",
-	"custom/cava_mviz",
+	"bluetooth",
+	"network",
 	"clock",
     "tray",
 	],
