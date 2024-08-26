@@ -1,7 +1,6 @@
 {
 "include": "~/.config/waybar/modules", 
 "layer": "top",
-"output": "DP-2",
 "exclusive": true,
 "passthrough": false,
 "position": "top",
@@ -19,21 +18,18 @@
     "memory",
     "disk",
 	"network#speed",
-	"custom/weather"
+	"custom/weather",
+	"hyprland/workspaces#pacman",
 	],
 
-"modules-center": [
-	"custom/separator#blank",
-	
-	"hyprland/taskbar",
-	"hyprland/workspaces#pacman",
-	"wlr/taskbar",
-	], 
-
 "modules-right": [
+	"custom/cava_mviz",
 	"pulseaudio",
     "pulseaudio#microphone",
-	"custom/cava_mviz",
+	"backlight",
+	"bluetooth",
+	"network",
+	"battery",
 	"clock",
     "tray",
 	],
