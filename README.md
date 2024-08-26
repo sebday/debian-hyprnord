@@ -45,7 +45,6 @@ Copy `assets/.zshrc` into ~/ and reboot to get the new shell.
 ### Fonts & Icons
 Installing fonts through apt seems to miss the symbols needed for waybar and fastfetch. Extract from assets the fonts into `~/.local/share/fonts` and the icons into `~/.local/share/icons`
 
-
 ### Firefox
 Nord theme: https://github.com/dragonejt/nord-firefox \
 Copy firefox/userContent.css to the ~/.mozilla/firefox/profile/chrome directory \
@@ -55,8 +54,7 @@ Install the [WhatsApp Web](https://userstyles.world/style/16345/whatsapp-web-nor
 
 ### Wallpapers
 Custom wallpaper scripts in the hypr folder search a folder for jpg and png, then set each monitor. \
-Currently sets each monitor individually so the script needs editing to your monitor(s) names. (this could extract the monitors from hyprctl monitors ?)
-
+Currently sets each monitor individually so the script needs editing to your monitor(s) names. (this could extract the monitors from hyprctl monitors ?) \
 A seperate widescreen script looks in a different folder and then applies images numbered 1, 2 and 3 seperately span a wallpaper across three monitors.
 
 ## Resources
