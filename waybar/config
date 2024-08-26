@@ -10,8 +10,8 @@
 "ipc": true,
 "margin-top": 0,
 "margin-bottom": 0,
-"margin-left": 10,
-"margin-right": 10,
+"margin-left": 0,
+"margin-right": 0,
 
 "modules-left": [
 	"temperature",
@@ -24,19 +24,17 @@
 
 "modules-center": [
 	"custom/separator#blank",
-	"custom/cava_mviz",
-	"mpris",
-	"pulseaudio",
-    "pulseaudio#microphone",
-	"custom/taskbar"
+	
+	"hyprland/taskbar",
+	"hyprland/workspaces#pacman",
+	"wlr/taskbar",
 	], 
 
 "modules-right": [
+	"pulseaudio",
+    "pulseaudio#microphone",
+	"custom/cava_mviz",
 	"clock",
     "tray",
-	"network",
-    "bluetooth",
-	"custom/menu",
-	"custom/lock",
 	],
 }

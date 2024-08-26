@@ -43,9 +43,6 @@ window#waybar {
   	transition-duration: 0.5s;
   	background: #2e3440;
 	padding: 2px;
-  	border-bottom: 2px solid #2dcbe8;
-	opacity: 0.8;
-	border-radius: 10px;
 }
 
 window#waybar.hidden {
