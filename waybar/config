@@ -19,7 +19,7 @@
     "disk",
 	"network#speed",
 	"custom/weather",
-	"hyprland/workspaces#4",
+	"hyprland/workspaces#4"
 	],
 
 "modules-right": [
@@ -31,6 +31,6 @@
 	"network",
 	"battery",
 	"clock",
-    "tray",
-	],
+    "tray"
+	]
 }
