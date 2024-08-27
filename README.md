@@ -5,7 +5,7 @@ Inspired by https://github.com/JaKooLit/Debian-Hyprland I wanted Hyprland on Deb
 [![screenshot](https://imghost.lol/screenshots/2024-08-26-204305_hyprshot.png)](https://imghost.lol/screenshots/2024-08-26-204305_hyprshot.png)
 
 ## Install
-Install a base system with no desktop environment, add `contrib` and `non-free` and dist-update to sid.
+Install a base system with no desktop environment, add `contrib` and `non-free` and dist-update to sid. (I like to install the ssh-server from tasksel and then remote in to install the rest)
 
 `sudo apt install hyprland hyprland-protocols hyprwayland-scanner xwayland waybar fuzzel grim slurp cliphist swayidle swaylock hyprpaper nwg-look libglib2.0-bin bibata-cursor-theme`
 
