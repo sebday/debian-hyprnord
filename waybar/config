@@ -19,7 +19,7 @@
     "disk",
 	"network#speed",
 	"custom/weather",
-	"hyprland/workspaces#pacman",
+	"hyprland/workspaces#4",
 	],
 
 "modules-right": [
