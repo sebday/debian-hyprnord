@@ -1,0 +1,2 @@
+[binds]
+<Return> = exec sh -c 'echo "$imv_current_file" | ~/.config/hypr/set_wallpaper.sh'; quit
