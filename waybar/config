@@ -24,7 +24,7 @@
 
 "modules-center": [
 	"hyprland/taskbar",
-	"hyprland/workspaces#pacman",
+	"hyprland/workspaces#4",
 	"wlr/taskbar",
 	], 
 
