@@ -24,8 +24,7 @@
 
 "modules-center": [
 	"hyprland/taskbar",
-	"hyprland/workspaces#4",
-	"wlr/taskbar",
+	"hyprland/workspaces#rw",
 	], 
 
 "modules-right": [
