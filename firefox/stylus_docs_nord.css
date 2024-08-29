@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name           ?
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+
+@-moz-document domain("docs.day.marketing") {
+    html.dark-mode {
+    background: #2e3440!important;
+    }
+    html.dark-mode .card {
+    background: #3b4252!important;
+    }
+    html.dark-mode .entity-list-item:hover,
+    html.dark-mode .entity-list-item:focus {
+    background: #434c5e!important;
+    }
+    html.dark-mode .input-base, html.dark-mode input[type="text"], html.dark-mode input[type="number"], html.dark-mode input[type="email"], html.dark-mode input[type="date"], html.dark-mode input[type="search"], html.dark-mode input[type="url"], html.dark-mode input[type="color"], html.dark-mode input[type="password"], html.dark-mode select, html.dark-mode textarea, html.dark-mode .fake-input {
+    background: #2e3440!important;
+    }
+    header .search-box input {
+    border-color: #3b4252!important;
+    }
+    html.dark-mode .code-base, html.dark-mode span.code, html.dark-mode code {
+    background: #2e3440!important;
+    }
+}

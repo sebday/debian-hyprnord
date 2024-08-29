@@ -5,7 +5,6 @@
 @description    A Nord theme for Soundcloud
 @author         Seb day
 ==/UserStyle== */
-
 @-moz-document url-prefix("https://soundcloud.com") {
 
     /* Insert code here... */
@@ -41,12 +40,12 @@
 
     /* widths */
     .l-container.l-fullwidth {
-        width: 1220px;
+        width: 1275px;
     }
 
     @media (max-width: 1239px) {
         .l-container.l-fullwidth {
-            width: 1190px;
+            width: 1169px;
         }
 
         .l-container {
@@ -106,7 +105,7 @@
         background: linear-gradient(#81a1c1, #5e81ac) !important;
     }
 
-    .header__navMenu>li>a {
+    .header__navMenu > li > a {
         min-width: 80px;
     }
 
@@ -281,6 +280,9 @@
         display: none;
     }
 
+    .readMoreTile__countWrapper {
+        background: #4c566a!important;
+    }
 
     /* new icons */
     .skipControl__previous {
@@ -384,7 +386,7 @@
     .commentFormDisabled,
     .profileMenu__list,
     .userNav__button.selected,
-    .l-fixed-top-one-column>.l-top,
+    .l-fixed-top-one-column > .l-top,
     .g-dark-bg,
     .unreadConversations,
     .trackItem.hover,
@@ -395,8 +397,8 @@
     .audibleEditForm__form,
     .gritter-item-wrapper,
     .g-upsell-container,
-    #content>.container>.row,
-    #footer>.container>.row,
+    #content > .container > .row,
+    #footer > .container > .row,
     .sidebarInfoBox {
         background: #3b4252 !important;
         color: #eceff4 !important;
@@ -418,7 +420,7 @@
     .mobileAppsButtons,
     .announcement,
     .g-scrollbar-visible,
-    #content>div>div.l-messages-main>div>img {
+    #content > div > div.l-messages-main > div > img {
         display: none !important;
     }
 
@@ -480,7 +482,7 @@
         color: #eceff4 !important;
     }
 
-    .header__navMenu>li>a.header__moreButton.selected {
+    .header__navMenu > li > a.header__moreButton.selected {
         background-color: #17181A !important;
     }
 
@@ -503,7 +505,7 @@
     .sc-radio-radio,
     textarea,
     .moreActions__group .moreActions__link,
-    .header__navMenu>li>a.selected,
+    .header__navMenu > li > a.selected,
     .editTrackItem.m-active {
         background: #4c566a !important;
         color: #eceff4 !important;
