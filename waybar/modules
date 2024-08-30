@@ -149,6 +149,7 @@
 		"class<foot|konsole|kitty>": " ",
 		"class<thunar>": "󰝰 ",
 		"class<discord>": " ",
+		"class<steam>": " ",
 		"class<subl>": "󰅳 ",
 		"class<celluloid|mpv>": " ",
 		"class<code-oss|codium|codium-url-handler|VSCodium|cursor>": "󰨞 ",
