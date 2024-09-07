@@ -14,8 +14,8 @@
 "margin-right": 0,
 
 "modules-left": [
+	"cpu",
 	"temperature",
-    "cpu",
     "memory",
     "disk",
 	"network#speed",
@@ -25,16 +25,14 @@
 "modules-center": [
 	"hyprland/taskbar",
 	"hyprland/workspaces#rw",
-	"hyprland/window"
+	"keyboard-state"
 	], 
 
 "modules-right": [
 	"custom/cava_mviz",
-	"pulseaudio",
+	"pulseaudio#1",
     "pulseaudio#microphone",
-	"bluetooth",
-	"network",
 	"clock",
-    "tray",
-	],
+    "tray"
+	]
 }
