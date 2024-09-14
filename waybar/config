@@ -1,10 +1,10 @@
 {
 "include": "~/.config/waybar/modules", 
 "layer": "top",
-"output": "DP-2",
+"output": "HDMI-A-1",
 "exclusive": true,
 "passthrough": false,
-"position": "top",
+"position": "bottom",
 "spacing": 3,
 "fixed-center": true,
 "ipc": true,
@@ -19,7 +19,6 @@
     "memory",
     "disk",
 	"network#speed",
-	"custom/weather"
 	],
 
 "modules-center": [
