@@ -1,5 +1,4 @@
 //* ---- 💫 https://github.com/JaKooLit 💫 ---- *//
-/* Waybar Modules */
 {
 	// CIRCLES Style
 	"hyprland/workspaces": {
@@ -55,15 +54,6 @@
 		}
 	},
 	// GROUP
-	"group/motherboard": {
-		"orientation": "horizontal",
-		"modules": [
-			"cpu",
-			"memory",
-			"temperature",
-			"disk",
-		]
-	},
 	"group/mobo_drawer": {
 		"orientation": "inherit",
 		"drawer": {
@@ -76,37 +66,6 @@
 			"cpu",
 			"memory",
 			"disk",
-		]
-	},
-	"group/laptop": {
-		"orientation": "inherit",
-		"modules": [
-			"backlight",
-			"battery",
-		]
-	},
-	"group/audio": {
-		"orientation": "inherit",
-		"drawer": {
-			"transition-duration": 500,
-			"children-class": "pulseaudio",
-			"transition-left-to-right": true
-		},
-		"modules": [
-			"pulseaudio",
-			"pulseaudio#microphone",
-		]
-	},
-	"group/connections": {
-		"orientation": "inherit",
-		"drawer": {
-			"transition-duration": 500,
-			"children-class": "bluetooth",
-			"transition-left-to-right": true
-		},
-		"modules": [
-			"network",
-			"bluetooth",
 		]
 	},
 	"backlight": {

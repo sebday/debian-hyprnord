@@ -22,14 +22,13 @@
 	],
 
 "modules-center": [
-	"hyprland/taskbar",
 	"hyprland/workspaces#rw",
 	"keyboard-state"
 	], 
 
 "modules-right": [
 	"custom/cava_mviz",
-	"pulseaudio#1",
+	"pulseaudio",
     "pulseaudio#microphone",
 	"clock",
     "tray"

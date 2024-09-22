@@ -64,18 +64,15 @@ window#waybar.empty #window {
     border-radius: 0;
     padding-left: 4px;
     padding-right: 4px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.5s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #taskbar button:hover,
-#workspaces button:hover {
-	border-radius: 0;
-	color: @peach;
+#workspaces button:hover,
+#workspaces button.active:hover {
+	border-radius: 5px;
+	color: @base;
  	padding-left: 2px;
     padding-right: 2px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button.persistent {
@@ -85,12 +82,10 @@ window#waybar.empty #window {
 
 #taskbar button.active,
 #workspaces button.active {
-	color: @mauve;
+	color: @pink;
   	border-radius: 10px;
     padding-left: 8px;
     padding-right: 8px;
-    animation: gradient_f 20s ease-in infinite;
-    transition: all 0.3s cubic-bezier(.55,-0.68,.48,1.682);
 }
 
 #workspaces button.urgent {
@@ -197,7 +192,7 @@ window#waybar.empty #window {
 }
 
 #clock {
-  color: @yellow;
+  color: @green;
 }
 
 #cpu {
@@ -237,6 +232,7 @@ window#waybar.empty #window {
 
 #custom-cava_mviz {
 	color: @pink;
+	padding: 0 10px;
 }
 
 #custom-menu {
@@ -328,4 +324,17 @@ window#waybar.empty #window {
 #backlight-slider highlight {
 	min-width: 10px;
 	border-radius: 5px;
+}
+
+#cpu, 
+#temperature, 
+#memory, 
+#disk, 
+#network,
+#pulseaudio,
+#clock,
+#tray,
+#workspaces,
+#custom-cava_mviz {
+	background-color: #3b4252;
 }
