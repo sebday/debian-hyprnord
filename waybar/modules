@@ -1,6 +1,4 @@
-//* ---- 💫 https://github.com/JaKooLit 💫 ---- *//
 {
-	// CIRCLES Style
 	"hyprland/workspaces": {
 		"active-only": false,
 		"all-outputs": true,
@@ -14,14 +12,13 @@
 			"2": [],
 			"3": [],
 			"4": [],
-			"5": [],
+			"5": []
 		},
 		"format-icons": {
 			"active": "",
-			"default": "",
-		},
+			"default": ""
+		}
 	},
-	// NUMBERS and ICONS style with window rewrite
 	"hyprland/workspaces#rw": {
 		"disable-scroll": true,
 		"all-outputs": true,
@@ -53,7 +50,6 @@
 			"class<com.obsproject.Studio>": " "
 		}
 	},
-	// GROUP
 	"group/mobo_drawer": {
 		"orientation": "inherit",
 		"drawer": {
@@ -65,14 +61,13 @@
 			"temperature",
 			"cpu",
 			"memory",
-			"disk",
+			"disk"
 		]
 	},
 	"backlight": {
 		"interval": 2,
 		"align": 0,
 		"rotate": 0,
-		//"format": "{icon} {percent}%",
 		"format-icons": [
 			" ",
 			" ",
@@ -83,7 +78,6 @@
 			"󰃠 "
 		],
 		"format": "{icon}",
-		//"format-icons": ["","","","","","","","","","","","","","",""],
 		"tooltip-format": "backlight {percent}%",
 		"icon-size": 10,
 		"on-click": "",
@@ -92,7 +86,7 @@
 		"on-update": "",
 		"on-scroll-up": "~/.config/waybar/scripts/Brightness.sh --inc",
 		"on-scroll-down": "~/.config/waybar/scripts/Brightness.sh --dec",
-		"smooth-scrolling-threshold": 1,
+		"smooth-scrolling-threshold": 1
 	},
 	"backlight#2": {
 		"device": "intel_backlight",
@@ -103,11 +97,8 @@
 		]
 	},
 	"battery": {
-		//"interval": 5,
 		"align": 0,
 		"rotate": 0,
-		//"bat": "BAT1",
-		//"adapter": "ACAD",
 		"full-at": 100,
 		"design-capacity": false,
 		"states": {
@@ -138,7 +129,7 @@
 		"tooltip": true,
 		"tooltip-format": "{timeTo} {power}w",
 		"on-click-middle": "~/.config/waybar/scripts/ChangeBlur.sh",
-		"on-click-right": "~/.config/waybar/scripts/Wlogout.sh",
+		"on-click-right": "~/.config/waybar/scripts/Wlogout.sh"
 	},
 	"bluetooth": {
 		"format": "",
@@ -148,7 +139,7 @@
 		"tooltip-format-connected": "{device_enumerate}",
 		"tooltip-format-enumerate-connected": " {device_alias} 󰂄 {device_battery_percentage}%",
 		"tooltip": true,
-		"on-click": "blueman-manager",
+		"on-click": "blueman-manager"
 	},
 	"clock": {
 		"interval": 1,
@@ -185,7 +176,7 @@
 		"path": "/",
 		"format": "{percentage_used}% 󰋊",
 		"tooltip": true,
-		"tooltip-format": "{used} used out of {total} on {path} ({percentage_used}%)",
+		"tooltip-format": "{used} used out of {total} on {path} ({percentage_used}%)"
 	},
 	"hyprland/window": {
 		"format": "{}",
@@ -197,14 +188,14 @@
 			"(.*) — Mozilla Firefox": " $1",
 			"(.*) - fish": "> [$1]",
 			"(.*) - zsh": "> [$1]",
-			"(.*) - $term": "> [$1]",
-		},
+			"(.*) - $term": "> [$1]"
+		}
 	},
 	"idle_inhibitor": {
 		"format": "{icon}",
 		"format-icons": {
 			"activated": " ",
-			"deactivated": " ",
+			"deactivated": " "
 		}
 	},
 	"keyboard-state": {
@@ -212,12 +203,12 @@
 		"capslock": true,
 		"format": {
 			"numlock": "N {icon}",
-			"capslock": "󰪛 {icon}",
+			"capslock": "󰪛 {icon}"
 		},
 		"format-icons": {
 			"locked": "",
 			"unlocked": ""
-		},
+		}
 	},
 	"memory": {
 		"interval": 10,
@@ -242,15 +233,13 @@
 			"mopidy": "",
 			"mpv": "󰐹",
 			"spotify": "",
-			"vlc": "󰕼",
+			"vlc": "󰕼"
 		},
 		"status-icons": {
 			"paused": "󰐎",
 			"playing": "",
-			"stopped": "",
-		},
-		//"ignored-players": ["firefox"]
-		//"max-length": 30,
+			"stopped": ""
+		}
 	},
 	"network": {
 		"format": "{ifname}",
@@ -322,7 +311,7 @@
 			],
 			"ignored-sinks": [
 				"Easy Effects Sink"
-			],
+			]
 		},
 		"scroll-step": 5.0,
 		"on-click": "~/.config/waybar/scripts/Volume.sh --toggle",
@@ -372,7 +361,7 @@
 			"",
 			"󰕾",
 			""
-		],
+		]
 	},
 	"wlr/taskbar": {
 		"format": "{icon} {name}",
@@ -385,7 +374,7 @@
 			"wofi",
 			"rofi",
 			"foot"
-		],
+		]
 	},
 	"custom/cycle_wall": {
 		"format": " ",
@@ -393,19 +382,19 @@
 		"on-click-right": "~/.config/hypr/UserScripts/WallpaperRandom.sh",
 		"on-click-middle": "~/.config/waybar/scripts/WaybarStyles.sh",
 		"tooltip": true,
-		"tooltip-format": "Left Click: Wallpaper Menu\nMiddle Click: Random wallpaper\nRight Click: Waybar Styles Menu",
+		"tooltip-format": "Left Click: Wallpaper Menu\nMiddle Click: Random wallpaper\nRight Click: Waybar Styles Menu"
 	},
 	"custom/hint": {
 		"format": "󰺁 HINT!",
 		"on-click": "~/.config/waybar/scripts/KeyHints.sh",
 		"tooltip": true,
-		"tooltip-format": "󱧣 Quick Tips",
+		"tooltip-format": "󱧣 Quick Tips"
 	},
 	"custom/keyboard": {
 		"exec": "cat ~/.cache/kb_layout",
 		"interval": 1,
 		"format": " {}",
-		"on-click": "~/.config/waybar/scripts/SwitchKeyboardLayout.sh",
+		"on-click": "~/.config/waybar/scripts/SwitchKeyboardLayout.sh"
 	},
 	"custom/light_dark": {
 		"format": "󰔎",
@@ -413,13 +402,13 @@
 		"on-click-right": "~/.config/waybar/scripts/WaybarStyles.sh",
 		"on-click-middle": "~/.config/hypr/UserScripts/WallpaperSelect.sh",
 		"tooltip": true,
-		"tooltip-format": "Left Click: Switch Dark-Light Themes\nMiddle Click: Wallpaper Menu\nRight Click: Waybar Styles Menu",
+		"tooltip-format": "Left Click: Switch Dark-Light Themes\nMiddle Click: Wallpaper Menu\nRight Click: Waybar Styles Menu"
 	},
 	"custom/lock": {
 		"format": "󰌾",
 		"on-click": "~/.config/waybar/scripts/LockScreen.sh",
 		"tooltip": true,
-		"tooltip-format": "󰷛 Screen Lock",
+		"tooltip-format": "󰷛 Screen Lock"
 	},
 	"custom/menu": {
 		"format": "",
@@ -427,9 +416,8 @@
 		"on-click-middle": "~/.config/hypr/UserScripts/WallpaperSelect.sh",
 		"on-click-right": "~/.config/waybar/scripts/WaybarLayout.sh",
 		"tooltip": true,
-		"tooltip-format": "Left Click: Rofi Menu\nMiddle Click: Wallpaper Menu\nRight Click: Waybar Layout Menu",
+		"tooltip-format": "Left Click: Rofi Menu\nMiddle Click: Wallpaper Menu\nRight Click: Waybar Layout Menu"
 	},
-	// This is a custom cava visualizer
 	"custom/cava_mviz": {
 		"exec": "~/.config/waybar/scripts/WaybarCava.sh",
 		"format": "{}"
@@ -445,14 +433,14 @@
 		"scroll-step": 5.0,
 		"on-scroll-up": "~/.config/waybar/scripts/Volume.sh --inc",
 		"on-scroll-down": "~/.config/waybar/scripts/Volume.sh --dec",
-		"smooth-scrolling-threshold": 1,
+		"smooth-scrolling-threshold": 1
 	},
 	"custom/power": {
 		"format": "⏻ ",
 		"on-click": "~/.config/waybar/scripts/Wlogout.sh",
 		"on-click-right": "~/.config/waybar/scripts/ChangeBlur.sh",
 		"tooltip": true,
-		"tooltip-format": "Left Click: Logout Menu\nRight Click: Change Blur",
+		"tooltip-format": "Left Click: Logout Menu\nRight Click: Change Blur"
 	},
 	"custom/swaync": {
 		"tooltip": true,
@@ -473,7 +461,7 @@
 		"exec": "swaync-client -swb",
 		"on-click": "sleep 0.1 && swaync-client -t -sw",
 		"on-click-right": "swaync-client -d -sw",
-		"escape": true,
+		"escape": true
 	},
 	"custom/weather": {
 		"format": "{}",
@@ -482,11 +470,9 @@
 		"interval": 3600,
 		"return-type": "json",
 		"exec": "~/.config/waybar/scripts/Weather.sh",
-		//"exec": "~/.config/hypr/UserScripts/Weather.py",
 		"exec-if": "ping wttr.in -c1",
-		"tooltip": true,
+		"tooltip": true
 	},
-	// Separators
 	"custom/separator#dot": {
 		"format": "",
 		"interval": "once",
@@ -516,5 +502,5 @@
 		"format": "   ",
 		"interval": "once",
 		"tooltip": false
-	},
+	}
 }

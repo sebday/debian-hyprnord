@@ -37,7 +37,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 Copy `assets/.zshrc` into ~/ and reboot to get the new shell.
 
 ### Standard tools
-`sudo apt install eza fzf sshfs btop fastfetch pipewire alsa-utils playerctl pamixer pavucontrol imv mpv qalc cava thunar thunar-archive-plugin thunar-media-tags-plugin gvfs-backends inkscape transmission libfuse2`
+`sudo apt install eza fzf duf sshfs btop fastfetch pipewire alsa-utils playerctl pamixer pavucontrol imv mpv qalc cava thunar thunar-archive-plugin thunar-media-tags-plugin gvfs-backends transmission libfuse2`
 
 ### GTK Theme
 Copy [Nordic](https://github.com/EliverLara/Nordic) into ~/.themes and set it in nwg-look 
