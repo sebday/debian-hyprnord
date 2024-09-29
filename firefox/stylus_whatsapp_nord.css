@@ -1,0 +1,103 @@
+/* ==UserStyle==
+@name         Whatsapp Nordified
+@version      1.1
+@namespace    ?
+==/UserStyle== */
+@-moz-document domain("web.whatsapp.com") {
+    .dark {
+        --drawer-background-deep: #242933;
+        --drawer-background: #2e3440;
+        --drawer-section-background: #2e3440;
+        --drawer-gallery-background: #2e3440;
+        --incoming-background: #2e3440;
+        --panel-header-background: #2e3440;
+        --conversation-panel-background: #242933;
+        --incoming-background-deeper: #242933;
+        --rich-text-panel-background: #2e3440;
+        --compose-input-border: #2e3440;
+        --compose-input-background: #242933;
+        --background-default: #2e3440;
+        --background-default-hover: #3b4252;
+        --background-lighter-hover: #434c5e;
+        --background-lightest-hover: #4c566a;
+        --background-default-active: #434c5e;
+        --search-input-background: #242933;
+        --search-input-background-active: #242933;
+        --border-default: #4C566A;
+        --unread-marker-background: #a3be8c;
+        --unread-marker-timestamp: #a3be8c;
+        --unread-timestamp: #a3be8c;
+        --input-placeholder-rgb: 241, 241, 242;
+        --intro-background: #2e3440;
+        --intro-border: #3b4252;
+        --button-secondary: #a3be8c;
+        --border-list: #4c566a;
+        --panel-input-background: #2e3440;
+        --panel-background-lighter: #2e3440;
+        --outgoing-background: #678b55;
+        --outgoing-background-rgb: 103, 139, 85;
+        --outgoing-background-deeper: rgb(65 87 53);
+        --dropdown-background: #2e3440;
+        --dropdown-background-hover: #3b4252;
+        --search-container-background: #2e3440;
+        --startup-background: #2e3440;
+        --panel-background-deeper: #242933;
+        --incoming-background-rgb: 46, 52, 64;
+        --typing: #a3be8c;
+        --unread-background: #2e3440;
+        --sticker-button-background: #3b4252;
+        --media-editor-image-caption-input-background: #2e3440;
+        --media-editor-video-caption-input-background: #2e3440;
+        --button-round-background: #778b66;
+        --modal-background: #2e3440;
+        --modal-backdrop: #24293388;
+        --button-primary-background: #778b66;
+        --button-primary-background-hover: #A3BE8C;
+        --button-secondary-hover: #A3BE8C;
+        --popup-panel-background: #242933;
+        --search-input-container-background: #2e3440;
+        --search-input-container-background-active: #2e3440;
+        --system-message-background: #2e3440;
+        --media-viewer-background: rgb(46 52 64 / 98%);
+        /* basically nord0 */
+        --button-plain-background: #3b4252;
+        --notification-e2e-background: #2e3440;
+        --panel-background-colored: #242933;
+        --panel-background-colored-deeper: #242933;
+        --avatar-background: #242933;
+        --reactions-panel-background-color: #2e3440;
+        --reactions-panel-search-background-color: #3b4252;
+        --filters-container-background: #2e3440;
+        --filters-item-background: #3b4252;
+        --filters-item-background-hover: #4c566a;
+        --filters-item-active-background: #a3be8c;
+        --filters-item-active-color: #eceff4;
+        --filters-item-color: #d8dee9;
+    }
+
+    svg {
+        filter: saturate(0.5) brightness(1.2) hue-rotate(305deg);
+    }
+
+    #app {
+        background-color: #2e3440;
+    }
+
+    .dark .color-1 {
+        color: #a3be8c !important;
+    }
+
+    .dark .color-2 {
+        color: #88C0D0 !important;
+    }
+
+    html[dir] .app-wrapper-web ._1jJ70 {
+        box-shadow: none;
+    }
+    .app-wrapper-web ._aigs {
+        max-width:2800px;
+        top:0;
+        width:100%;
+        height:100%;
+    }
+}
