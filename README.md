@@ -7,7 +7,7 @@ Inspired by https://github.com/JaKooLit/Debian-Hyprland I wanted Hyprland on Deb
 ## Install
 Install a base system with no desktop environment, add `contrib` and `non-free` and dist-update to sid. (I like to install the ssh-server from tasksel and then remote in to install the rest)
 
-`sudo apt install hyprland hyprland-protocols hyprwayland-scanner xwayland waybar fuzzel grim slurp cliphist swayidle swaylock hyprpaper nwg-look libglib2.0-bin bibata-cursor-theme`
+`sudo apt install hyprland hyprland-protocols hyprwayland-scanner xwayland waybar fuzzel grim slurp cliphist swayidle swaylock hyprpaper mako-notifier nwg-look libglib2.0-bin bibata-cursor-theme`
 
 - Fuzzel is a nice menu with icons
 - Waybar is the taskbar
@@ -19,7 +19,7 @@ Install a base system with no desktop environment, add `contrib` and `non-free` 
 - Swaylock is the lock screen
 - Swayidle for auto locking the screen
 
-`sudo apt install zsh foot git firefox`
+`sudo apt install zsh kitty git firefox`
 
 ### Clone the dots and start hyprland
 `git clone git@github.com:sebday/debian-hyprnord.git ~/.config`
